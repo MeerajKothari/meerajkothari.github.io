@@ -1,0 +1,12 @@
+---
+title: "Meeraj Kothari"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Welcome to my website! 
+
+You can learn about me [here](about.html).
+
