@@ -8,5 +8,6 @@ output:
 
 # Welcome to my website! 
 
-You can learn about me [here](about.html).
+You can learn about my professional and academic experience [here](about.html).
+
 
