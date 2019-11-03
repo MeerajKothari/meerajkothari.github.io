@@ -1,28 +1,44 @@
 ---
-title: ""
-output: html_document
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(viridis)
 library(plotly)
-
-set.seed(1)
-data(instacart)
 ```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data(instacart)
+instacart %>% 
+  group_by(department) %>%
+  plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department, type = "box") 
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 instacart %>% 
-  count(aisle) %>%
-  mutate(aisle = fct_reorder(aisle, -n)) %>%
-  plot_ly(x = ~aisle, y = ~n, color = ~aisle)
+  count(department) %>%
+  mutate(department = fct_reorder(department, -n)) %>%
+  plot_ly(x = ~department, y = ~n, color = ~department)
 ```
+
+### Chart C
 
 ```{r}
 instacart %>% 
@@ -31,5 +47,4 @@ instacart %>%
   count(order_hour_of_day) %>% 
   plot_ly(x = ~order_hour_of_day, y = ~n, color = ~order_dow, type = "scatter", mode = "lines")
 ```
-
 

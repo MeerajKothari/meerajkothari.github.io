@@ -90,7 +90,7 @@ observations and 207 variables
 
 **Research Assistant --- November 2016–January 2017**
 
-•	Data collection and analysis assistant in the Department of Oral Medicine for a prospective cohort study on the effects of glossectomy and radiation therapy in middle-aged women treated for carcinoma of tongue in Kalol.
+•	Data collection and analysis assistant in the Department of Oral Medicine for a case-control study on the effects of glossectomy and radiation therapy in middle-aged women treated for carcinoma of tongue in Kalol.
 
 ## Karnavati School of Dentistry
 
@@ -102,6 +102,8 @@ observations and 207 variables
 
 # Awards & Honors 
 
+---
+
 ## Poster Presentation Award: Environmental Epidemiology 
 
 **Columbia University, Department of Epidemiology	--- October 2019** 
@@ -110,13 +112,19 @@ observations and 207 variables
 
 # Software Skills 
 
+---
+
 R, SAS, STATA, QGIS, MS Excel, MS PowerPoint, MS Word. 
 
 # Languages
 
+---
+
 English, Hindi, Gujarati, Spanish. 
 
 # Certifications 
+
+---
 
 HIPAA, CITI, BLS
 
