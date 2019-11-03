@@ -16,12 +16,6 @@ output:
 
 * You can learn about my professional and academic experience [here](about.html).
 
----
-
-# Art
-
----
-
 * Here's one of my favorite paintings: The Persistence of Memory (1931) by Salavador Dalí
 
 <img src="images/dali.jpg">
