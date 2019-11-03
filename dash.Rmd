@@ -1,0 +1,35 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(viridis)
+library(plotly)
+
+set.seed(1)
+data(instacart)
+```
+
+```{r}
+instacart %>% 
+  count(aisle) %>%
+  mutate(aisle = fct_reorder(aisle, -n)) %>%
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle)
+```
+
+```{r}
+instacart %>% 
+  mutate(order_dow = factor(order_dow)) %>%
+  group_by(order_dow) %>%
+  count(order_hour_of_day) %>% 
+  plot_ly(x = ~order_hour_of_day, y = ~n, color = ~order_dow, type = "scatter", mode = "lines")
+```
+
+

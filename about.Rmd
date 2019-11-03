@@ -1,5 +1,4 @@
 ---
-title: "Resume" 
 output:
   html_document:
     toc: true
@@ -8,75 +7,117 @@ output:
 
 # Education
 
+---
+
 ## Columbia University, Mailman School of Public Health
-Master of Public Health (MPH), Epidemiology | Certificate in Epidemiology of Chronic Diseases | Expected May 2020
+
+**Master of Public Health (MPH), Epidemiology | Certificate in Epidemiology of Chronic Diseases | Expected May 2020**
+
 •	Coursework included: Data Science I, Applied Data Analysis for Epidemiology, Applications of Epidemiologic Research Methods, Design & Conduct of Observational Studies, Health Economics, US Health Systems, Analysis of categorical data, Quantitative and Qualitative research methods.   
+
 •	Activities & Societies: VP of Communications - Healthcare Data Analytics, VP of Events - Queer Health Task Force.
 
-GUJARAT UNIVERSITY, KARNAVATI SCHOOL OF DENTISTRY 
-Bachelor of Dental Surgery (BDS) | September 2012 – September 2017 
+## Gujarat University, Karnavati School of Dentistry
+
+**Bachelor of Dental Surgery (BDS) | September 2012 – September 2017**
+
 •	U.S. Equivalency (W.E.S.) - Five years of professional study in dentistry at an accredited institution. 
 
 # Professional Experience 
-## Research Foundation for Mental Hygiene, New York State Psychiatric Institute      		   October 2019–Present 
-Research Assistant 
+
+---
+
+## Research Foundation for Mental Hygiene, New York State Psychiatric Institute 
+
+**Research Assistant --- October 2019 – Present**
+
 •	Factorial survey data analysis for vignette experiments evaluating behavior among 500 judges
 
-## Columbia University, Mailman School of Public Health 						   October 2019–Present
-Research Assistant
+## Columbia University, Department of Epidemiology
+
+**Research Assistant --- October 2019 – Present**
+
 •	Data collection using Google Street view to geocode tobacco retail sites in Indonesia
 
-## Columbia University, Mailman School of Public Health 
-Data Analyst 		 				 		    		       	 June 2019–August 2019 
+## Columbia University, Department of Epidemiology  
+
+**Research Assistant --- June 2019–August 2019** 
+
 •	Developed a causal hypothesis for a retrospective observational study using DAGs in Daggity 
+
 •	Data cleaning and analysis using predictive modeling and machine learning on NYC birth cohort of 1994-1998 with 201,559 
 observations and 207 variables 
+
 •	Explored joint effects of blood lead and 40 air pollutants on 3rd grade test scores in the birth cohort  
 
-## Columbia University, School of Nursing 						          December 2018–May 2019 
-Graduate Research Assistant
+## Columbia University, School of Nursing
+
+**Research Assistant --- December 2018–May 2019**
+
 •	Data collection, study design and analysis assistant for a grant funded project exploring associations between antibiotic use and NH resident self-reported or family reported resident symptoms. 
+
 •	Abstraction of EMR data and administration of surveys in REDCap for data collection.
 
-## Smt. Sushilaben Kothari Charitable Hospital			 			         October 2017–August 2018
-Consultant Dentist
+## Smt. Sushilaben Kothari Charitable Hospital
+
+**Consultant Dentist --- October 2017–August 2018**
+
 •	Leading dental health check-up camps involving 150+ patients and performing treatments in over 60% patients. 
+
 •	Introduced tobacco cessation program leading to increase in fidelity levels by 30% in rural Ahmedabad in 6 months.
+
 •	Successfully managed patient records and accounts.
 
-## Karnavati School of Dentistry					                                            September 2016–October 2017
-Intern Dentist 
+## Karnavati School of Dentistry
+
+**Intern Dentist --- September 2016–October 2017**
+
 •	Performing routine dental checkups. 
+
 •	Prescribing drugs and performing relevant treatments such as scaling, RCT, crown & bridge, complete dentures
+
 •	Counselling regarding oral health hygiene and addiction.
 
-## Vakharia Dental Hospital 						                                     January 2017–March 2017
-Management Intern					
+## Vakharia Dental Hospital
+
+**Management Intern	--- January 2017–March 2017**
+
 •	Data entry and management of patient records and accounts
+
 •	Telecommunications, scheduling and managing appointments
 
-## Karnavati School of Dentistry 				             		                             November 2016–January 2017
-Research Assistant
-•	Data collection and analysis assistant in the Department of Oral Medicine for a prospective cohort study on the effects of 
-glossectomy and radiation therapy in middle-aged women treated for carcinoma of tongue in Kalol.
+## Karnavati School of Dentistry 
 
-## Karnavati School of Dentistry								         September 2013–July 2014 
-Teaching Assistant
+**Research Assistant --- November 2016–January 2017**
+
+•	Data collection and analysis assistant in the Department of Oral Medicine for a prospective cohort study on the effects of glossectomy and radiation therapy in middle-aged women treated for carcinoma of tongue in Kalol.
+
+## Karnavati School of Dentistry
+
+**Teaching Assistant --- September 2013–July 2014**
+
 •	Assisted in development of dental anatomy and histology course for first-year dental surgery students. 
+
 •	Distributed course materials, supervised class room and lab sessions of about 40 students and graded assignment and papers
 
-# AWARDS & HONORS
-Poster Presentation Award: Environmental Epidemiology 						    October 2019  
-Columbia University, Department of Epidemiology
+# Awards & Honors 
+
+## Poster Presentation Award: Environmental Epidemiology 
+
+**Columbia University, Department of Epidemiology	--- October 2019** 
+
 •	Assessing joint effects of blood lead and air pollution on children’s 3rd grade standardized test scores in New York City birth cohort from 1994 to 1998.
 
-# SOFTWARE SKILLS 
+# Software Skills 
+
 R, SAS, STATA, QGIS, MS Excel, MS PowerPoint, MS Word. 
 
-# LANGUAGES
+# Languages
+
 English, Hindi, Gujarati, Spanish. 
 
-# CERTIFICATIONS
+# Certifications 
+
 HIPAA, CITI, BLS
 
 
