@@ -10,11 +10,28 @@ output:
 
 # Welcome to my website! 
 
+---
+
 * I'm a second-year MPH student at [Columbia Mailman School of Public Health](https://www.mailman.columbia.edu). 
 
 * You can learn about my professional and academic experience [here](about.html).
 
+---
+
+# Art
+
+---
+
+* Here's one of my favorite painting: The Persistence of Memory (1931) by Salavador Dalí
+
+<img src="images/dali.jpg">
+
+---
 
 # Flexdashboard
 
-* Here's a dashboard of 
+---
+
+* Here's a dashboard of the [Instacart Dataset](dash.html). 
+
+---
