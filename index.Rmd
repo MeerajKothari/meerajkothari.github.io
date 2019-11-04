@@ -12,7 +12,7 @@ output:
 
 ---
 
-* I'm a second-year MPH student at [Columbia Mailman School of Public Health](https://www.mailman.columbia.edu). 
+* I'm a second-year MPH student at [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu). 
 
 * You can learn about my professional and academic experience [here](about.html).
 
