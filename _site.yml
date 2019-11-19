@@ -1,7 +1,5 @@
 name: "Yay internet!"
 output_dir: "."
-head:
-  <link rel="shortcut icon" type="image/x-icon" href="favicon_io/favicon.ico">
 navbar:
   title: "Home"
   right:
