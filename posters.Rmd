@@ -1,7 +1,5 @@
 ---
 title: "Posters"
-author: "Meeraj Kothari"
-date: "12/20/2019"
 output: html_document
  html_document:
     toc: true
