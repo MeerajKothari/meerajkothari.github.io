@@ -8,8 +8,8 @@ output:
 
 ## Assessing joint effects of blood lead and air pollution on children’s 3rd grade standardized test scores in New York City birth cohort from 1994 to 1998.
 
-<embed src="Kothari_Meeraj_Poster.pdf" width="800px" height="2100px" />
+<embed src="Kothari_Meeraj_Poster.pdf" width="800px" height="1200px" />
 
 ## Neighborhood Racial Composition and All-Cause Mortality in New York City
 
-<embed src="GIS_poster_mk4208.pdf" width="800px" height="2100px" />
+<embed src="GIS_poster_mk4208.pdf" width="800px" height="1200px" />
