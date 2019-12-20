@@ -22,3 +22,8 @@ navbar:
 output:
   html_document:
     theme: journal
+    include:
+      after_body: footer.html
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
