@@ -9,6 +9,8 @@ navbar:
       menu:
       - text: "Instacart"
         href: dash.html
+      - text: "Solo Or Together?"
+        href: https://gagarinzhao.github.io/billboard_band_breakups/
     - icon: fa-envelope fa-lg
       href: mailto:<meeraj.kothari@columbia,edu>
     - icon: fa-github fa-lg
