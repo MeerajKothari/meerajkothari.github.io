@@ -1,0 +1,148 @@
+---
+title: "Hate Crimes in India"
+author: "Meeraj Kothari"
+date: "1/9/2020"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, message=FALSE}
+library(scales)
+library(tidyverse)
+library(plotly)
+library(viridis)
+
+data = read_csv("./Data/crime_by_state_rt.csv") %>% 
+  janitor::clean_names()
+```
+
+## Data 
+
+Data are picked from the National Crime Records Bureau of India. Representing the state wise and district wise crimes against scheduled castes during the years 2001 to 2012. Data for the year 2013 are available for the district wise data. Crimes that are recorded here as fields are the Indian Penal Code crimes.
+
+Each record represents the number of each type of crime that occurred where the victim was registered as a person of a scheduled cast. Crimes are recorded regardless of the caste of the offender.
+
+## Number of murders from 2001 - 2012 grouped by State
+
+```{r echo=FALSE, message=FALSE}
+p1 = data %>% 
+  ggplot(aes(x = year, y = murder, color = state_ut)) +
+  geom_line() + 
+  xlab("Year") + 
+  ylab("Number of Murders") + 
+  labs(color = "State / Union Territory") + 
+  labs(caption = "Data Source: National Crime Records Bureau of India") +
+  scale_color_viridis_d() +
+  scale_x_continuous(breaks = pretty_breaks()) + 
+  theme_minimal()
+
+ggplotly(p1) 
+```
+
+## Total number of murders from 2001 - 2012  
+
+```{r echo=FALSE, message=FALSE}
+data %>% 
+  group_by(state_ut) %>%
+  summarise(n = sum(murder)) %>% 
+  ggplot(aes(x = reorder(state_ut, n), y = n, fill = desc(n))) + 
+  coord_flip() + 
+  geom_bar(stat = "identity") + 
+  labs(y = "Total number of murders", x = "State / UT", caption = "Data Source: National Crime Records Bureau of India") + 
+  theme_minimal() + 
+  theme(legend.position = "none") + 
+  scale_fill_viridis_c() + 
+  ggtitle("Total number of murders from 2001 - 2012") 
+```
+
+## Number of assaults on scheduled caste women from 2001 - 2012 grouped by state 
+
+```{r echo=FALSE, message=FALSE}
+p2 = data %>% 
+  ggplot(aes(x = year, y = assault_on_women, color = state_ut)) +
+  geom_line() + 
+  xlab("Year") + 
+  ylab("Number of Assaults on Women") + 
+  labs(color = "State / Union Territory") + 
+  scale_color_viridis_d() +
+  scale_x_continuous(breaks = pretty_breaks()) + 
+  theme_minimal()
+
+ggplotly(p2) 
+```
+
+## Total number of assaults on scheduled caste women from 2001 - 2012
+
+```{r echo=FALSE, message=FALSE}
+data %>% 
+  group_by(state_ut) %>%
+  summarise(n = sum(assault_on_women)) %>% 
+  ggplot(aes(x = reorder(state_ut, n), y = n, fill = desc(n))) + 
+  coord_flip() + 
+  geom_bar(stat = "identity") + 
+  labs(y = "Total number of assaults on women", x = "State / UT", caption = "Data Source: National Crime Records Bureau of India") + 
+  theme_minimal() + 
+  theme(legend.position = "none") + 
+  scale_fill_viridis_c() +
+  ggtitle("Total number of assaults on scheduled caste women \nfrom 2001 - 2012") 
+```
+
+## Number of kidnappings and abductions from 2001 - 2012 grouped by state 
+
+```{r echo=FALSE, message=FALSE}
+p2 = data %>% 
+  ggplot(aes(x = year, y = kidnapping_and_abduction, color = state_ut)) +
+  geom_line() + 
+  xlab("Year") + 
+  ylab("Number of kidnappings and abductions") + 
+  labs(color = "State / Union Territory", caption = "Data Source: National Crime Records Bureau of India") + 
+  scale_color_viridis_d() +
+  scale_x_continuous(breaks = pretty_breaks()) + 
+  theme_minimal()
+
+ggplotly(p2) 
+```
+
+## Total number of kidnappings and abductions from 2001 - 2012
+
+```{r echo=FALSE, message=FALSE} 
+data %>% 
+  group_by(state_ut) %>%
+  summarise(n = sum(kidnapping_and_abduction)) %>% 
+  ggplot(aes(x = reorder(state_ut, n), y = n, fill = desc(n))) + 
+  coord_flip() + 
+  geom_bar(stat = "identity") + 
+  labs(y = "Total number of kidnappings and abductions", x = "State / UT", caption = "Data Source: National Crime Records Bureau of India") + 
+  theme_minimal() + 
+  theme(legend.position = "none") + 
+  scale_fill_viridis_c() 
+```
+
+## Districts with most number of serious crimes reported from 2001 - 2013 
+
+```{r echo=FALSE, message=FALSE}
+data2 = read_csv("./Data/crime_by_district_rt.csv") %>% 
+  janitor::clean_names()
+
+data2 %>% 
+  group_by(district) %>%
+  summarise(n = sum(murder, assault_on_women, kidnapping_and_abduction)) %>%
+  arrange(desc(n)) %>% 
+  head(10) %>% 
+  ggplot(aes(x = reorder(district, n), y = n, fill = desc(n))) + 
+  coord_flip() + 
+  geom_bar(stat = "identity") + 
+  labs(y = "Total number of crimes", x = "District", caption = "Data Source: National Crime Records Bureau of India") + 
+  theme_minimal() + 
+  theme(legend.position = "none") + 
+  scale_fill_viridis_c() + 
+  ggtitle("Top 10 disctricts with most number of serious crimes reported \nagainst scheduled castes in India 2001 - 2013") 
+```
+
+

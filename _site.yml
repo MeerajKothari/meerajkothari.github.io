@@ -11,6 +11,8 @@ navbar:
         href: dash.html
       - text: "Solo Or Together?"
         href: https://gagarinzhao.github.io/billboard_band_breakups/
+      - text: "Hate Crimes in India"
+        href: crimes.html
     - text: "Posters"
       href: posters.html
     - icon: fa-envelope fa-lg
