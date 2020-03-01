@@ -9,15 +9,15 @@ output:
 
 ---
 
-## Columbia University, Mailman School of Public Health
+### Columbia University, Mailman School of Public Health
 
 **Master of Public Health (MPH), Epidemiology | Certificate in Epidemiology of Chronic Diseases | Expected May 2020**
 
-•	Coursework included: Data Science I, Applied Data Analysis for Epidemiology, Applications of Epidemiologic Research Methods, Design & Conduct of Observational Studies, Health Economics, US Health Systems, Analysis of categorical data, Quantitative and Qualitative research methods.   
+•	Coursework included: Data Science II, Relational Databases and SQL Programming for Research and Data Science, Latent Variable and Structural Equation Modeling, Neurological Epidemiology, Data Science I, Applied Regression I, Applied Data Analysis for Epidemiology, Applications of Epidemiological Research Methods, Design & Conduct of Observational Studies, Health Economics, US Health Systems, Analysis of Categorical Data, Quantitative and Qualitative research methods.  
 
 •	Activities & Societies: VP of Communications - Healthcare Data Analytics, VP of Events - Queer Health Task Force.
 
-## Gujarat University, Karnavati School of Dentistry
+### Gujarat University, Karnavati School of Dentistry
 
 **Bachelor of Dental Surgery (BDS) | September 2012 – September 2017**
 
@@ -27,38 +27,46 @@ output:
 
 ---
 
-## Research Foundation for Mental Hygiene, New York State Psychiatric Institute 
+### Columbia Aging Center
 
-**Research Assistant --- October 2019 – Present**
+**Graduate Research Assistant --- February 2020 – Present**
 
-•	Factorial survey data analysis for vignette experiments evaluating behavior among 500 judges
+•	Analyzed socio-genomic data for measurement of lifecourse aging.
 
-## Columbia University, Department of Epidemiology
+### Columbia University, Department of Epidemiology
 
-**Research Assistant --- October 2019 – Present**
+**Graduate Research Assistant --- October 2019 – February 2020**
 
-•	Data collection using Google Street view to geocode tobacco retail sites in Indonesia
+•	Geocoded 400+ streets for tobacco retail sites and advertisements in Indonesia using Google Street View.
 
-## Columbia University, Department of Epidemiology  
+### Research Foundation for Mental Hygiene, New York State Psychiatric Institute 
 
-**Research Assistant --- June 2019–August 2019** 
+**Research Assistant --- October 2019 – December 2019**
 
-•	Developed a causal hypothesis for a retrospective observational study using DAGs in Daggity 
+•	Conducted factorial survey data analysis in R for vignette experiments evaluating effect of genetic evidence and psychiatric history on decision making in tort litigation cases among 500 judges for the Department of Law, Ethics and Psychiatry.
 
-•	Data cleaning and analysis using predictive modeling and machine learning on NYC birth cohort of 1994-1998 with 201,559 
-observations and 207 variables 
 
-•	Explored joint effects of blood lead and 40 air pollutants on 3rd grade test scores in the birth cohort  
+### Columbia University, Department of Epidemiology  
 
-## Columbia University, School of Nursing
+**Graduate Research Assistant --- June 2019–August 2019** 
 
-**Research Assistant --- December 2018–May 2019**
+•	Data cleaning and analysis using predictive modeling and machine learning on NYC birth cohort of 1994-1998 with 201,559 observations and 207 variables in R.
 
-•	Data collection, study design and analysis assistant for a grant funded project exploring associations between antibiotic use and NH resident self-reported or family reported resident symptoms. 
+•	Assessed joint effects of blood lead and 40 air pollutants on 3rd grade test scores in the birth cohort.  
+
+•	Developed a causal hypothesis for a retrospective observational study using DAGs in Daggity.
+
+
+### Columbia University, School of Nursing
+
+**Graduate Research Assistant --- December 2018–May 2019**
+
+•	Data collection, study design and analysis assistant for a NIH (NINR) grant funded project exploring associations between antibiotic use and NH resident self-reported or family reported resident symptoms in SAS. 
 
 •	Abstraction of EMR data and administration of surveys in REDCap for data collection.
 
-## Smt. Sushilaben Kothari Charitable Hospital
+
+### Smt. Sushilaben Kothari Charitable Hospital
 
 **Consultant Dentist --- October 2017–August 2018**
 
@@ -68,7 +76,7 @@ observations and 207 variables
 
 •	Successfully managed patient records and accounts.
 
-## Karnavati School of Dentistry
+### Karnavati School of Dentistry
 
 **Intern Dentist --- September 2016–October 2017**
 
@@ -78,7 +86,7 @@ observations and 207 variables
 
 •	Counselling regarding oral health hygiene and addiction.
 
-## Vakharia Dental Hospital
+### Vakharia Dental Hospital
 
 **Management Intern	--- January 2017–March 2017**
 
@@ -86,13 +94,13 @@ observations and 207 variables
 
 •	Telecommunications, scheduling and managing appointments
 
-## Karnavati School of Dentistry 
+### Karnavati School of Dentistry 
 
 **Research Assistant --- November 2016–January 2017**
 
 •	Data collection and analysis assistant in the Department of Oral Medicine for a case-control study on the effects of glossectomy and radiation therapy in middle-aged women treated for carcinoma of tongue in Kalol.
 
-## Karnavati School of Dentistry
+### Karnavati School of Dentistry
 
 **Teaching Assistant --- September 2013–July 2014**
 
@@ -104,7 +112,7 @@ observations and 207 variables
 
 ---
 
-## Poster Presentation Award: Environmental Epidemiology 
+### Poster Presentation Award: Environmental Epidemiology 
 
 **Columbia University, Department of Epidemiology	--- October 2019** 
 
@@ -114,7 +122,7 @@ observations and 207 variables
 
 ---
 
-R, SAS, STATA, QGIS, MS Excel, MS PowerPoint, MS Word. 
+R, SQL, SAS, MPlus, QGIS, MS Excel, MS PowerPoint, MS Word. 
 
 # Languages
 

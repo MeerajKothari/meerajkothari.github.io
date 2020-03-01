@@ -25,7 +25,7 @@ navbar:
       href: https://twitter.com/KothariMeeraj
 output:
   html_document:
-    theme: journal
+    theme: flatly
     include:
       after_body: footer.html
     css: styles.css
