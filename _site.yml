@@ -7,8 +7,6 @@ navbar:
       href: about.html
     - text: "Examples"
       menu:
-      - text: "Instacart"
-        href: dash.html
       - text: "Solo Or Together?"
         href: https://gagarinzhao.github.io/billboard_band_breakups/
       - text: "Hate Crimes in India"
