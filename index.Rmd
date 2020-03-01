@@ -22,14 +22,6 @@ output:
 
 ---
 
-# Flexdashboard
-
----
-
-* Here's a dashboard of the [Instacart Dataset](dash.html). 
-
----
-
 # Solo Or Together? 
 
 ---
