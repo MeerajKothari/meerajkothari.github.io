@@ -1,31 +1,8 @@
-name: "Yay internet!"
+name: "Meeraj Kothari"
 output_dir: "."
-navbar:
-  title: "Home"
-  right:
-    - text: "Résumé"
-      href: about.html
-    - text: "Examples"
-      menu:
-      - text: "Solo Or Together?"
-        href: https://gagarinzhao.github.io/billboard_band_breakups/
-      - text: "Hate Crimes in India"
-        href: crimes.html
-    - text: "Posters"
-      href: posters.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<meeraj.kothari@columbia,edu>
-    - icon: fa-github fa-lg
-      href: http://github.com/MeerajKothari/
-    - icon: fab fa-linkedin
-      href: https://www.linkedin.com/in/meerajkothari
-    - icon: fab fa-twitter
-      href: https://twitter.com/KothariMeeraj
 output:
   html_document:
-    theme: flatly
-    include:
+    theme: yeti
+    includes:
+      before_body: menu.html
       after_body: footer.html
-    css: styles.css
-    lib_dir: site_libs
-    self_contained: no
