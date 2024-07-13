@@ -5,8 +5,6 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
-
----
 <style>
 .main-container {
   max-width: 70%;
