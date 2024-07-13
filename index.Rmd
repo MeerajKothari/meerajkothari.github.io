@@ -14,6 +14,11 @@ editor_options:
 </style>
 
 
-Hello! I'm a Data Scientist based in New York City. I earned my Master of Public Health in Epidemiology from [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu) in May 2020. You can learn about my professional and academic experience [here](about.html).
+<br> 
+
+
+Hello! I'm a Data Scientist based in New York City. I currently support data science projects for the clinical quality department of a leading telemedicine company. 
+
+My previous research focused on topics such as quantification of biological aging, and impacts of multiple pollutants on urban environments especially for children and older adults. I earned my Master of Public Health in Epidemiology from [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu) in May 2020. You can learn about my professional and academic experience [here](about.html).
 
 
