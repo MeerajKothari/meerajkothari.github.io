@@ -10,7 +10,7 @@ editor_options:
 <style>
 .main-container {
   max-width: 70%;
-  margin-left: 30%;
+  margin-left: 15%;
   margin-right: 30%;
 }
 </style>
@@ -18,7 +18,4 @@ editor_options:
 
 Hello! I'm a Data Scientist based in New York City. I earned my Master of Public Health in Epidemiology from [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu) in May 2020. You can learn about my professional and academic experience [here](about.html).
 
-Here's one of my favorite paintings: The Persistence of Memory (1931) by Salavador Dalí
-
-<img src="images/dali.jpg">
 
