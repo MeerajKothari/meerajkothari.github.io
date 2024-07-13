@@ -1,23 +1,24 @@
 ---
-title: "Meeraj Kothari"
+title: "<br><br><br>Meeraj Kothari"
 output: 
   html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ---
+<style>
+.main-container {
+  max-width: 70%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+</style>
 
-* I'm a second-year MPH student at [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu). 
 
-* You can learn about my professional and academic experience [here](about.html).
+Hello! I'm a Data Scientist based in New York City. I earned my Master of Public Health in Epidemiology from [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu) in May 2020. You can learn about my professional and academic experience [here](about.html).
 
-* Here's one of my favorite paintings: The Persistence of Memory (1931) by Salavador Dalí
+Here's one of my favorite paintings: The Persistence of Memory (1931) by Salavador Dalí
 
 <img src="images/dali.jpg">
 
----
-
-# Solo Or Together? 
-
----
-
-* [Solo Or Together?](https://gagarinzhao.github.io/billboard_band_breakups/) is a small passion project our team (Gagarin Zhao, Meeraj Kothari, Madeline Cannon, Crystal Li, Nihan Gencerliler) did for our Data Science class. We visualized band breakups by comparing the success of bands when they are together and when they become solo acts according to Billboard Hot 100 data. 
